@@ -1,7 +1,9 @@
 "use strict";
 
+const h = "0123456789abcdef";
+
 /**
- * @param {buffer} buffer
+ * @param {Uint8Array} buffer
  * @returns {string}
  */
 function toHex(buffer) {
