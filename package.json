@@ -1,0 +1,18 @@
+{
+  "type": "commonjs",
+  "name": "@tsctx/fast-buffer-to-hex",
+  "main": "./index.js",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./index.mjs",
+    "require": "./index.js",
+    "node": "./index.js",
+    "default": "./index.mjs"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.1.0",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "mitata": "^0.1.11"
+  }
+}
